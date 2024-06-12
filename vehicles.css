@@ -1,0 +1,60 @@
+body{
+    background-color: grey;
+}
+
+.vehicles{
+  width:80%;
+  margin:auto;
+}
+
+.car{
+    border-radius:5px;
+    margin:10px;
+    padding:10px;
+    background-color:white;
+    box-shadow:8px 8px 20px black;
+    height:395px;
+}
+.row{
+    display:flex;
+    margin:5px 0px;
+}
+.car img{
+    height:330px;
+    width:400px;
+}
+span:hover{
+    background-color: yellow;
+    font-size:large;
+}
+#short{
+    width:400px;
+margin-top:20px;
+margin-bottom:-20px;
+
+}
+#shorter{
+    height:270px;
+    margin-bottom:10px;
+ margin-top:20px;
+height:300px;
+}
+#lessWidth{
+width:400px;
+height:300px;
+margin-top:20px;
+margin-bottom:10px;
+}
+.big{
+    font-size:large;
+    font-family:monospace;
+    text-align:center;
+}
+p{
+    font-family:monospace;
+    text-align:center;
+}
+button{
+    font-family:monospace;
+margin-left:170px;
+}

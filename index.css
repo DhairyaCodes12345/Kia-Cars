@@ -1,0 +1,43 @@
+*{
+    margin:0px; 
+    padding:0px;
+    box-sizing: border-box;
+}
+section{
+    background-image: url("https://www.multivu.com/players/English/9128651-kia-unveils-all-electric-2024-ev9-suv-at-nyias-2023/image/201942024EV9GT_1680627605494-HR.jpg");
+    background-size:cover;
+    background-position:up;
+    background-repeat:no-repeat;
+    height:100vh;
+}
+.navs a{
+ font-size:30px;  
+ text-decoration:none;
+ color:white;
+ font-family:kanit;
+}
+.seperate{
+    display:flex;
+    justify-content:space-evenly;
+    margin-left:200px;
+    padding-top:-14px;
+}
+.navs a:hover{
+    color:red;
+    padding:19px;
+    background-color: #fff;
+}
+.logo{
+    position:absolute;
+    top:17px;
+    left:12%;
+}
+.div1 a{
+margin-left:0px;
+}
+.div2 a{
+    margin-left:0px;
+    }
+    .div3 a{
+        margin-left:0px;
+        }

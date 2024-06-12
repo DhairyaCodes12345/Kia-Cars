@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image" href="https://logos-world.net/wp-content/uploads/2021/03/Kia-Symbol.png">
+    <title>Kia Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="common.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <nav>
+        <a href="index.html">
+        <img src="https://icon-library.com/images/go-arrow-icon/go-arrow-icon-4.jpg " height="60px" class="back"> 
+        </a>
+        <a href="index.html" class="back2"> Go Back</a>
+        <h1>Contact Us</h1>
+        </nav>
+        </div> 
+    <section>
+    <div class="space"></div>
+    <h3>SEND US A MESSAGE</h3>
+    <div class="form">
+    <form>
+
+<label for="num1">How can we help you?</label>
+<br>
+    <textarea rows="4" cols="40" id="num1" placeholder="How can we help you?"></textarea>  
+<table>
+<tr>
+<td>
+<label for="num2">Your First Name</label>
+<br>
+    <input type="text" id="num2" placeholder="Your First Name">
+</td>
+<br>
+<td>
+    <label for="num3">Your Last Name</label>
+<br>
+    <input type="text" id="num3" placeholder="Your Last Name"> 
+</td>
+    </tr>
+<br>
+<tr>
+    <td>
+    <label for="num4">Email Address</label>
+<br>
+    <input type="email" id="num4" placeholder="Email Address">
+</td>
+<td>
+
+    <label for="num5">Phone Number</label>    
+    <br>
+    <input type="number" id="num5" placeholder="Phone Number">
+</td>
+</tr>
+    </table>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <h4>How would you like us to contact you?</h4>
+    <br>
+    <div class="check">
+        <div>
+    <input type="checkbox" id="call"> <label for="call">Call</label></div>
+    <div>
+    <input type="checkbox" id="text"> <label for="text">Text</label></div>
+    <div>
+    <input type="checkbox" id="email"> <label for="email">Email</label></div>
+</div>
+   <br>
+    <input type="submit" value="Send" class="buttons" onclick="check()">
+</form>
+</div>
+    </section>
+        <footer>
+            <div class="div1">
+            <h3>Products</h3>
+            <ul>
+            <li><a href="#">New</a></li>
+            <li><a href="#">Used</a></li>
+            <li><a href="#">EV</a></li>
+            <li><a href="#">Buy Online</a></li>
+            </ul>
+            </div>
+            
+            <div class="div2">
+                <h3>Resources</h3>
+                <ul>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contact Us</a></li>
+                </ul>
+                </div>
+            
+                <div class="div3">
+                    <h3>About Us</h3>
+                    <ul>
+                  <li><a href="#">Team</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Develepers</a></li>
+                    <li><a href="#">Investors</a></li>
+                    </ul>
+                    </div>
+            
+            </footer>
+            <script>
+                function check(){
+                    var x = document.getElementById("num5").value;
+                    if (x<10 && x>10){
+                        alert("No")
+                    }
+                }
+            </script>
+</body>
+</html>

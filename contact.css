@@ -1,0 +1,55 @@
+section{
+    height:100vh;
+    background-color: grey;
+}
+h3{
+    color:white;
+    font-family:monospace;
+    text-align:center;
+    font-size:30px;
+}
+.space{
+    height:30px;
+}
+textarea{
+    padding:10px;
+}
+.buttons{
+    background-color:red;
+    color:white;
+    width:100px;
+    padding:5px;
+    border-radius:200px;
+    font-size: large;
+    margin-top:10px;
+    cursor:pointer;
+    margin-left:38%;
+}
+.buttons:hover{
+    background-color:rgb(188, 1, 1);
+}
+.form{
+    width:24%;
+    background-color:navy;
+    margin:60px auto;
+    padding:15px;
+}
+input{
+    padding:5px;
+}
+.check{
+    display: flex;
+    justify-content:space-evenly;
+}
+label{
+    color:white;
+    font-family:monospace;
+}
+h4{
+    color:white;
+    font-family:monospace;
+    font-size:17px;
+}
+::placeholder{
+    font-family:monospace;
+}

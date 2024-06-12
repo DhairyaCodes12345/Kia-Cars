@@ -1,0 +1,18 @@
+table,th,td{
+    border:5px solid black;
+    border-collapse: collapse;
+    background-color:grey;
+    color:white;
+}
+table{
+    height:664px;
+    width:100%;
+}
+th, td{
+    font-size:35px;
+    text-align:center;
+    font-family: 'Roboto Mono', monospace;
+}
+th{
+    font-weight:normal;
+}

@@ -1,0 +1,47 @@
+*{
+    margin:0;
+}
+.header{
+    background-color:navy;
+    margin-top:0px;
+height:81px;
+}
+.back{
+    margin-top:4px;
+}
+.back2{
+    position:absolute;
+    margin-top:15px; 
+    font-size:40px;
+    margin-left:20px;
+    color:limegreen;
+    display:inline;
+    text-decoration:none;
+}
+h1{
+    font-style: italic;
+    font-size:55px;
+    position:absolute;
+    margin-top:-75px;
+    margin-left:41.3%;
+    color:white;
+    font-family:kanit;
+}
+footer{
+    display:flex;
+    justify-content:space-evenly;
+    padding:20px;
+    font-family:kanit;
+    background-color:navy;
+}
+footer h3{
+  font-size:20px;
+  color:white; 
+}
+footer ul{
+    list-style:none;
+}
+footer a{
+    color:rgb(142, 142, 142);
+    margin-left:-40px; 
+}
